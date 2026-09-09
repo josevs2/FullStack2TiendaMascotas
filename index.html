@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TiendaMascotas</title>
+    <title>TiendaDeMascotas</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+    <header>
+        <div class="logo">
+            <h1>TiendaDeMascotas</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- menú perros -->
+                <li class="dropdown">
+                    <a href="#">Perro</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Alimento</a></li>
+                        <li><a href="#">Juguetes</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                    </ul>
+                </li>
+                <!-- menú gatos -->
+                <li class="dropdown">
+                    <a href="#">Gato</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Alimento</a></li>
+                        <li><a href="#">Arena</a></li>
+                        <li><a href="#">Juguetes</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                    </ul>
+                </li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="carrito">
+            <a href="carrito.html">Carrito (0)</a>
+        </div>
+    </header>
+
+    <footer>
+        <p>&copy; 2026 TiendaDeMascotas. Derechos reservados y esas cosas.</p>
+    </footer>
     
+    <script src="js/javaScript.js"></script>
 </body>
 </html>
